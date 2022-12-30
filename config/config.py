@@ -8,7 +8,7 @@ REDIS_DB = 0
 GATEWAY_ADDR = '172.16.187.25:7000'
 MASTER_HOST = '172.16.187.25:8000'
 
-WORKFLOW_YAML_ADDR = {'fileprocessing': '.../benchmark/fileprocessing/flat_workflow.yaml',
+WORKFLOW_YAML_ADDR = {'fileprocessing': '../benchmark/fileprocessing/flat_workflow.yaml',
                   'wordcount': '../benchmark/wordcount/flat_workflow.yaml',
                   'cycles': '../benchmark/generator/cycles/flat_workflow.yaml',
                   'epigenomics': '../benchmark/generator/epigenomics/flat_workflow.yaml',
